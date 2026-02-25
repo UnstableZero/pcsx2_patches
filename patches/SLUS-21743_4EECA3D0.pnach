@@ -18,4 +18,10 @@ patch=1,EE,0047776c,word,3c024040 //3c024000
 patch=1,EE,0045b92c,word,3c03c340 //3c03c380
 patch=1,EE,0045b954,word,3c0243ab //3c024380
 
+[No-Interlacing]
+author=Switz0018
+Description=Removes interlacing.
+gsinterlacemode=1
+patch=1,EE,20476638,extended,10000020 // Gameplay,forces branch
+patch=1,EE,20463DEC,extended,0002A000 // For load screen + GIF
 
